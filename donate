@@ -1,0 +1,88 @@
+# do<!DOCTYPE html><html lang="th">  <head>  
+  <meta charset="UTF-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <title>Donate Me</title>  
+  <style>  
+    body {  
+      font-family: Arial, sans-serif;  
+      background: linear-gradient(135deg, #0f0f1a, #1b1b3a, #2d1b69);  
+      background-size: 400% 400%;  
+      animation: bgAnimation 10s ease infinite;  
+      color: white;  
+      text-align: center;  
+      padding: 40px;  
+    }  
+    .card {  
+      background: rgba(255,255,255,0.1);  
+      padding: 30px;  
+      border-radius: 20px;  
+      max-width: 400px;  
+      margin: auto;  
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);  
+    }  
+    h1 {  
+      margin-bottom: 10px;  
+    }  
+    p {  
+      opacity: 0.8;  
+    }  
+    .btn {  
+      display: block;  
+      margin: 15px 0;  
+      padding: 12px;  
+      border-radius: 10px;  
+      text-decoration: none;  
+      color: white;  
+      font-weight: bold;  
+      transition: 0.3s;  
+    }  
+    .paypal { background: #0070ba; }  
+    .wallet { background: #ff6600; }  
+    .btn:hover {  
+      opacity: 0.8;  
+      transform: scale(1.05);  
+    }@keyframes bgAnimation {  
+  0% {  
+    background-position: 0% 50%;  
+  }  
+  50% {  
+    background-position: 100% 50%;  
+  }  
+  100% {  
+    background-position: 0% 50%;  
+  }  
+}  .card {
+animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+0% {
+transform: translateY(0px);
+}
+50% {
+transform: translateY(-10px);
+}
+100% {
+transform: translateY(0px);
+}
+}
+img {
+width: 200px;
+margin-top: 20px;
+border-radius: 10px;
+}
+
+  </style>  
+</head>  
+<body>  <div class="card">  
+    <h1>💖 Donate Support 💖</h1>  
+    <p>กดปุ่มด้านล่างเพื่อสนับสนุนผมได้เลย 🔥</p><!-- Streamlabs -->  
+<a class="btn paypal" href="https://i.postimg.cc/kGnPHwTG/IMG-20260430-105731-200.jpg" target="_blank">  
+  โดเนทผ่าน Streamlabs  
+</a>  <!-- TrueMoney Wallet -->  <a class="btn wallet" href="https://tmn.app.link/ndtwyOQB21b" target="_blank">  
+  โดเนทผ่าน Wallet  
+</a>  <!-- Wallet Link Only -->  <p>หรือกดลิงก์ด้านล่างเพื่อโดเนทผ่าน Wallet</p>  
+<a class="btn wallet" href="https://tmn.app.link/ndtwyOQB21b" target="_blank">  
+  โดเนทผ่านลิงก์นี้ 💖  
+</a>    </div></body>  
+</html>  
